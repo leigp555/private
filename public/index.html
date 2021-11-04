@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>翻译</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<div style="color: pink;font-size: 18px">
+    <span>说明:</span>
+    <br>
+    <span>支持单词和语句 中=>英 || 英=>中</span>
+</div>
+
+<div class="content">
+    <div  class="input">
+    <form id="ts">
+        <label>
+            <span style="color: red">请输入需要翻译的内容</span>
+            <br>
+            <input type="text" id="translateContent">
+        </label>
+        <button id="button" type="submit" style="color: blue">翻译</button>
+    </form>
+    </div>
+    <div class="origin">
+        <h5>原文内容:</h5>
+        <br>
+        <div id="lastContent"></div>
+    </div>
+    <div class="result">
+       <h5> 翻译内容:</h5>
+        <br>
+        <div id="translateResult"></div>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

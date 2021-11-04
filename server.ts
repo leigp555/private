@@ -21,8 +21,6 @@ server.on("request", (request: IncomingMessage, response: ServerResponse) => {
             translate(requestDate).then((data)=>{
                 response.end(data)
             })
-            console.log(requestDate)
-
         })
 
     } else {

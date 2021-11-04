@@ -70,7 +70,6 @@ export const translate = (word: string) => {
                     reject(err)
                 } else {
                     result = obj.trans_result[0].dst
-                    console.log(result)
                     resolve(result)
                 }
 
